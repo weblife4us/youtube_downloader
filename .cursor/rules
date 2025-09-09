@@ -1,0 +1,16 @@
+rules:
+  - name: Ignore virtual environment
+    path: venv/
+    action: ignore
+  - name: Ignore pycache
+    path: __pycache__/
+    action: ignore
+  - name: Ignore git directory
+    path: .git/
+    action: ignore
+  - name: Ignore pyc files
+    glob: **/*.pyc
+    action: ignore
+  - name: Ignore logs
+    glob: **/*.log
+    action: ignore

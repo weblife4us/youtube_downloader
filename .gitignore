@@ -1,0 +1,47 @@
+# Python virtual environments
+venv/
+env/
+.venv/
+.env/  # Папка .env, если используешь; для файла .env добавь ниже
+
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$pyc  # Для Jython, если нужно (исправил твою опечатку)
+
+# C extensions
+*.so
+
+# Distribution / packaging
+.Python
+build/
+dist/
+*.egg-info/
+*.egg
+
+# Logs
+*.log
+
+# IDEs and editors
+.vscode/
+.idea/
+*.sublime-project
+*.sublime-workspace
+
+# OS generated files
+.DS_Store
+Thumbs.db
+
+# Testing
+.pytest_cache/
+coverage/
+.coverage
+.coverage.*
+.tox/
+
+# Databases
+*.sqlite3
+*.db
+
+# Environment files (secrets)
+.env  # Файл .env, если не папка
